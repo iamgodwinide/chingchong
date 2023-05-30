@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  background-image: url(../public/img/background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.coins{
+  width: 30vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.worker{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 95vh;
+}
+
+.text-wrap{
+  position: absolute;
+  width: 100vw;
+  top: 10vh;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-wrap .text1{
+  width: 40vw;
+}
+
+.text-wrap .text2{
+  width: 30vw;
+  margin-top: 1em;
+}
+
+
+nav{
+  position: absolute;
+  top: 5em;
+  left: 2em;
+}
+
+nav ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  list-style: none;
+}
+
+nav ul img{
+  width: 5em;
+}
+
+nav ul .twitter{
+  width: 6.8em;
+  margin-left: -.8em;
+  margin-bottom: 1em;
+}
+
+@media screen and (max-width: 1024px) {
+  .worker{
+    width: 40vw;
+    height: 60vh;
+  }
+
+  nav{
+    position: absolute;
+    top: 2em;
+    left: 0em;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+.text-wrap .text1{
+  width: 80vw;
+}
+
+.text-wrap .text2{
+  width: 70vw;
+  margin-top: 1em;
+}
+}
