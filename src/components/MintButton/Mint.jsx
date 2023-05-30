@@ -4,10 +4,10 @@ import newcontract from './Newcontract.json';
 import { useAlert } from 'react-alert';
 import './style.css'
 
-const newcontractAddress = "0x88bE91c05ca35fB99ad8C9f3B666273bB9613B0d";
+const newcontractAddress = "0x7858aEb0ce98F5a207a4cdFDD29E03D871Fb4F28";
 
 const Mint = ({ accounts, setAccounts }) => {
-    const [price, setPrice] = useState('0.01')
+    const [price, setPrice] = useState('0.05')
     const alert = useAlert();
 
     async function handleMint() {
